@@ -6,6 +6,8 @@ Created on Mon Jul 22 10:52:10 2019
 """
 
 import pandas as pd
+
+# CSV is available in the same folder in git, please change the path before you import the data.
 data = pd.read_csv(r"C:\Users\narendra.b.sinappa\Desktop\heart.csv")
 
 
