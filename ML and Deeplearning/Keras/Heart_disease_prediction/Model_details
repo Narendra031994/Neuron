@@ -1,0 +1,29 @@
+The model will predict heart disease with the help of 13 independent variables listed below. 
+Attribute Information: 
+ 1. age  
+ 2. sex - can be male = 1 or female = 0 
+ 3. chest pain type (4 values) - from 0 to 3 
+ 4. resting blood pressure 
+ 5. serum cholestoral in mg/dl 
+ 6. fasting blood sugar > 120 mg/dl
+ 7. resting electrocardiographic results (values 0,1,2)
+ 8. maximum heart rate achieved 
+ 9. exercise induced angina  - Yes =1 or no = 0
+ 10. oldpeak = ST depression induced by exercise relative to rest 
+ 11. the slope of the peak exercise ST segment 
+ 12. number of major vessels (0-3) colored by flourosopy 
+ 13. thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+ 14. target: 1 if yes, 0 if no(yes =has heart disease)
+ 
+ 
+ Implementation details:
+ Python version : 3.7
+ GPU used : No
+ Module used : Keras deeplearning module
+ No. of layers = 3 (1 hidden layer with 6 nodes)
+ No. of input nodes = 13 (No. of independent variables)
+ Activation function used in hidden layer = Rectifier
+ Activation function used in output node = Sigmoid
+ 
+
+
